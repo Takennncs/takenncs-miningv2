@@ -34,4 +34,34 @@
 2. Add the resource to your `server.cfg`:
 
 ```cfg
-ensure takenncs-miningv2
+ensure takenncs-miningv2 
+
+```
+```
+['iron_ore'] = {
+    label = 'Raua maak',
+    weight = 45,
+    stack = true,
+    close = true,
+},
+
+['copper_ore'] = {
+    label = 'Vase maak',
+    weight = 35,
+    stack = true,
+    close = true,
+},
+
+['gold_nugget'] = {
+    label = 'Kullakamakas',
+    weight = 35,
+    stack = true,
+    close = true,
+},
+
+['silver_nugget'] = {
+    label = 'Hõbekamakas',
+    weight = 35,
+    stack = true,
+    close = true,
+},
